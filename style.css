@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(238, 222, 222)
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    color: rgb(62, 62, 173);
+    background-color: azure;
+    height: 8rem;
+    border-radius: 1rem;
+    font-family: 'Lobster', cursive;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 0.3rem solid black;
+    gap: 0.5rem;
+    background-color: white;
+    height: 20rem;
+    width: 13rem;
+    border-radius: 3rem;
+    font-size: 1.5rem;
+}
+
+.submit-book {
+    margin: 1.5rem 0;
+    width: 7rem;
+    height: 4rem;
+    border-radius: 2rem;
+    transition: 0.5s;
+    cursor: pointer;
+    background-color: azure;
+}
+
+.submit-book:hover {
+    transform: scale(1.2, 1.2);
+}
+
+.table-wrapper {
+    display: flex;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    border: 0.1rem solid black;
+    border-radius: 0.5rem;
+}
+
+
+.table {
+    border-spacing: 5rem 1rem;
+    text-align: center;
+    width: 100%;
+}
+
+.delete {
+    border: 0.1rem solid red;
+    text-decoration: none;
+    background-color: red;
+    border: 0.15rem solid black;
+    color: black;
+}
+
+.table-row > :nth-child(5) {
+    border: none;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+::placeholder {
+    color: red;
+}
+
+
+
+
+
+
+
+
